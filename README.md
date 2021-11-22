@@ -15,8 +15,7 @@ Serving the HTML
 Testing the webserver
 
 ## PROGRAM:
-'''
-from http.server import HTTPServer, BaseHTTPRequestHandler
+''' from http.server import HTTPServer, BaseHTTPRequestHandler
 content = """
 <!DOCTYPE html>
 <html>
@@ -42,8 +41,7 @@ class myhandler(BaseHTTPRequestHandler):
 server_address = ("",80)
 httpd = HTTPServer(server_address,myhandler)
 print("my webserver is running...")
-httpd.serve_forever()"""
-'''
+httpd.serve_forever() '''
 
 
 
